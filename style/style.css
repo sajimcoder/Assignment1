@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
 
-  
+
 }
+
 .raleway-uniquifier {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -12,14 +13,17 @@
 }
 
 /*shared css*/
-.Primary-Color{
-  color:#4E47FF;
+.Primary-Color {
+  color: #4E47FF;
 }
-.color-bg{
+
+
+
+.color-bg {
   background-color: #f5f8ff;
 }
 
-.Primary-btn{
+.Primary-btn {
   background-color: #4E47FF;
   color: white;
   border: none;
@@ -31,25 +35,33 @@
   font-size: 16px;
 }
 
+.Primary-btn:hover {
+
+  background: #22C55E;
+  box-shadow: 0 8px 25px #22C55E59;
+}
+
+
 
 /* Header */
-.header{
+.header {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 
 }
 
 /*navbar*/
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 35px 120px;
- 
-  
+
+
 }
-.logo{
+
+.logo {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 34px;
@@ -57,48 +69,91 @@
 
 /*banner-section*/
 
-.banner-content{
-  
+.banner-content {
+
   text-align: center;
   padding: 0px 0px 150px 0px
 }
 
-.banner-heading{
+.banner-heading {
   font-size: 65px;
   font-weight: 600;
   padding: 150px 260px 37px 260px;
 }
 
 /* Action Section */
-.action{
+.action {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 110px 0px 116px 0px ;
+  padding: 116px 0px 116px 0px;
   gap: 220px;
 }
 
-.action-heading{
+.action-heading {
   font-size: 42px;
   font-weight: 700;
   color: #252432;
 }
 
-.action-description{
+.action-description {
   font-size: 23px;
   font-weight: 400;
-  color: #25243250;
+  color: #25243280;
   padding: 23px 0px 23px 0px;
 }
-.action-content{
+
+.action-content {
   padding: 0px 0px 0px 131px;
 }
 
-.action-image-section{
+.action-image-section {
   padding: 0px 131px 0px 0px;
-  
+
 }
 
-.action-image{
+.action-image {
   border-radius: 50px;
+}
+
+/* users-section */
+.users-section {
+  text-align: center;
+  padding: 0px 141px 137px 141px;
+
+
+}
+
+.users-section-heading {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.users-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+  padding-top: 40px;
+}
+
+
+
+.user-details-head {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+
+}
+
+.user-details-description {
+  color: #00000080;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.users-section-bg {
+  background-color: #4E47FF1A;
+  padding: 50px 80px;
+  border-radius: 30px;
 }
