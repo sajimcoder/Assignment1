@@ -144,7 +144,7 @@
   font-size: 80px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
-  
+
 
 }
 
@@ -153,7 +153,7 @@
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  
+
 }
 
 .users-section-bg {
@@ -163,7 +163,7 @@
 }
 
 /* feedback section */
-.feedback-headline{
+.feedback-headline {
   font-weight: 700;
   font-size: 42px;
   color: #252432;
@@ -171,74 +171,165 @@
   margin-bottom: 50px;
 }
 
-.feedback-heading{
+.feedback-heading {
   font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
-    font-size: 30px;
-    font-weight: 650;
-    color: #1E1E1E;
-    margin-top: 26px;
+  font-size: 30px;
+  font-weight: 650;
+  color: #1E1E1E;
+  margin-top: 26px;
 }
 
-.feedback-description{
+.feedback-description {
   font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    color: #1E1E1E;
-    margin-top: 8px;
-    
-}
-.claint-name{
-font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color:#757575 ;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1E1E1E;
+  margin-top: 8px;
+
 }
 
-.claint-description{
-font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    color:#B3B3B3 ;
-    margin-top: 2px;
+.claint-name {
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
 }
 
-.claint-logo{
+.claint-description {
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #B3B3B3;
+  margin-top: 2px;
+}
+
+.claint-logo {
   border-radius: 100%;
   width: 40px;
-  
+
 }
-.feedback{
+
+.feedback {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding-bottom: 200px;
 }
-.users-Details{
+
+.users-Details {
   display: flex;
   gap: 12px;
   margin-top: 24px;
 }
 
-.feedback-section{
+.feedback-section {
   padding: 24px;
   background-color: white;
   border-radius: 15px;
 }
-.feedback-section:hover{
+
+.feedback-section:hover {
   background-color: #4E47FF1A;
   border: #4E47FF 2px solid;
   padding: 22px;
   box-shadow: 0 8px 25px #030050a2
-  
 }
 
-/* .users-txt-color{
-  background-color: #4E47FF;
-  padding:0px 0px 0px 10px;
-  border-radius: 10px;
-  color: white;
-} */
- .users-txt-color{
+
+.users-txt-color {
   color: #4E47FF;
- }
+}
+
+
+/* second-hero-section */
+.second-hero-section {
+  text-align: center;
+}
+
+  .second-hero-heading {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .second-hero-description {
+    font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+    color: #00000080;
+    padding: 20px 0px 20px 0px;
+    font-size: 17px;
+  }
+
+  .second-hero-btn {
+    margin-bottom: 20px;
+
+  }
+
+  .second-hero-img {
+    border-radius: 48px;
+  }
+
+  .second-hero-bg {
+    margin: 0px 150px 137px 150px;
+    padding: 71px 0px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+
+  /* massage section */
+  .form-heading-text{
+    font-weight: 700;
+    font-size: 97px;
+    color: #000000;
+  }
+
+  .form-section{
+    display: flex;
+    gap: 115px;
+    margin-left: 150px;
+    margin-right: 170px;
+    
+    justify-content: center;
+  align-items: center;
+  }
+
+  .form{
+   align-items: center;
+    
+  }
+
+  form input {
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  padding:0px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+textarea {
+  height: 95px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-bottom: 19px;
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  resize: none;
+}
+
+.indicate-tex{
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  font-size: 18px;
+  font-weight: 500px;
+  margin-top: 19px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
