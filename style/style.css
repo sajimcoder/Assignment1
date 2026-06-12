@@ -41,6 +41,8 @@
 
   background: #22C55E;
   box-shadow: 0 8px 25px #22C55E59;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 
 
@@ -233,7 +235,12 @@
   background-color: #4E47FF1A;
   border: #4E47FF 2px solid;
   padding: 22px;
-  box-shadow: 0 8px 25px #030050a2
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px #030050a2;
+
+
+
 }
 
 
@@ -247,64 +254,71 @@
   text-align: center;
 }
 
-  .second-hero-heading {
-    font-size: 50px;
-    font-weight: 700;
-  }
+.second-hero-heading {
+  font-size: 50px;
+  font-weight: 700;
+}
 
-  .second-hero-description {
-    font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
-    color: #00000080;
-    padding: 20px 0px 20px 0px;
-    font-size: 17px;
-  }
+.second-hero-description {
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  color: #00000080;
+  padding: 20px 0px 20px 0px;
+  font-size: 17px;
+}
 
-  .second-hero-btn {
-    margin-bottom: 20px;
+.second-hero-btn {
+  margin-bottom: 20px;
 
-  }
+}
 
-  .second-hero-img {
-    border-radius: 48px;
-  }
+.second-hero-img {
+  border-radius: 48px;
+}
 
-  .second-hero-bg {
-    margin: 0px 150px 137px 150px;
-    padding: 71px 0px;
-    border-radius: 20px;
-    background-color: white;
-  }
+.second-hero-bg {
+  margin: 0px 150px 137px 150px;
+  padding: 71px 0px;
+  border-radius: 20px;
+  background-color: white;
+}
 
 
-  /* massage section */
-  .form-heading-text{
-    font-weight: 700;
-    font-size: 97px;
-    color: #000000;
-  }
+/* massage section */
+.touch {
+  color: #4E47FF;
+  font-size: 90px;
 
-  .form-section{
-    display: flex;
-    gap: 115px;
-    margin-left: 150px;
-    margin-right: 170px;
-    
-    justify-content: center;
+}
+
+.form-heading-text {
+  font-weight: 700;
+  font-size: 97px;
+  color: #000000;
+}
+
+.form-section {
+  display: flex;
+  gap: 115px;
+  margin-left: 150px;
+  margin-right: 170px;
+
+  justify-content: center;
   align-items: center;
-  }
+}
 
-  .form{
-   align-items: center;
-    
-  }
+.form {
+  align-items: center;
+  margin-bottom: 71px;
 
-  form input {
-  height: 64px;
+}
+
+form input {
+  height: 55px;
   border-radius: 5px;
   background-color: #ffffff;
   display: block;
   width: 100%;
-  padding:0px 20px;
+  padding: 0px 20px;
   font-size: 16px;
   font-weight: 500;
   border: none;
@@ -325,11 +339,73 @@ textarea {
   resize: none;
 }
 
-.indicate-tex{
+.indicate-tex {
   font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
   font-size: 18px;
   font-weight: 500px;
   margin-top: 19px;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+  border: #4E47FF 3px solid;
+  background-color: #4d47ff40;
+  box-shadow: 0px 6px 50px 0px #01002725;
+
+}
+
+
+
+/* footer */
+.footer-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 104px 455px;
+  background-color: white;
+  margin-top: 14px;
+
+}
+
+.footer-list {
+  display: flex;
+  gap: 45px
+}
+
+li {
+  list-style: none;
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  align-items: center;
+  color: #8987A1;
+  font-size: 17px;
+}
+
+.footer-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+ul {
+  justify-content: center;
+
+}
+
+.footer-dexcription {
+  color: #8987A1;
+  font-size: 18px;
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+  margin-bottom: 20px;
+}
+
+
+li:hover {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
