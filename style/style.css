@@ -19,6 +19,8 @@
 
 
 
+
+
 .color-bg {
   background-color: #f5f8ff;
 }
@@ -142,6 +144,7 @@
   font-size: 80px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+  
 
 }
 
@@ -150,6 +153,7 @@
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
+  
 }
 
 .users-section-bg {
@@ -157,3 +161,84 @@
   padding: 50px 80px;
   border-radius: 30px;
 }
+
+/* feedback section */
+.feedback-headline{
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feedback-heading{
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    color: #1E1E1E;
+    margin-top: 26px;
+}
+
+.feedback-description{
+  font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1E1E1E;
+    margin-top: 8px;
+    
+}
+.claint-name{
+font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#757575 ;
+}
+
+.claint-description{
+font-family: "Inter", "Roboto", "Segoe UI", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color:#B3B3B3 ;
+    margin-top: 2px;
+}
+
+.claint-logo{
+  border-radius: 100%;
+  width: 40px;
+  
+}
+.feedback{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 200px;
+}
+.users-Details{
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.feedback-section{
+  padding: 24px;
+  background-color: white;
+  border-radius: 15px;
+}
+.feedback-section:hover{
+  background-color: #4E47FF1A;
+  border: #4E47FF 2px solid;
+  padding: 22px;
+  box-shadow: 0 8px 25px #030050a2
+  
+}
+
+/* .users-txt-color{
+  background-color: #4E47FF;
+  padding:0px 0px 0px 10px;
+  border-radius: 10px;
+  color: white;
+} */
+ .users-txt-color{
+  color: #4E47FF;
+ 
