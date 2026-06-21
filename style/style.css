@@ -44,6 +44,20 @@
   transform: translateY(-2px);
   transition: all 0.3s ease;
 }
+/* messenger section */
+.messenger-icon{
+ font-size: 50px;
+color: #4E47FF;
+position: fixed;
+right: 30px;
+bottom: 35px;
+}
+.messenger-icon:hover{
+  font-size: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #22C55E;
+}
 
 
 
@@ -236,7 +250,7 @@
   border: #4E47FF 2px solid;
   padding: 22px;
   transform: translateY(-10px);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   box-shadow: 0 8px 25px #030050a2;
 
 
